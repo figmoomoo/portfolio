@@ -1,0 +1,54 @@
+.App {
+  background-image: url(https://cdn.discordapp.com/attachments/718455188100350035/763215965517119508/jerry-zhang-Y8lCoTRgHPE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-component .home-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-component .home-main .home-name {
+  color: white;
+  font-size: 50px;
+}
+
+.home-component .home-main .home-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.home-component .home-main .home-skills {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.home-component .home-intro {
+  background-color: #76a9c4;
+  margin-top: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

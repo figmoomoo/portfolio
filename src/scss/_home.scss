@@ -1,0 +1,36 @@
+.home-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    .home-main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        .home-name {
+            color: white;
+            font-size: 50px;
+        }
+        .home-title {
+            color: white;
+            font-size: 30px;
+            margin-top: 80px;
+        }
+        .home-skills {
+            color: white;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+    }
+
+    .home-intro {
+        background-color: #76a9c4;
+        margin-top: 0px;
+    }
+}
