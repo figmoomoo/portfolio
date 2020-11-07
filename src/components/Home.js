@@ -25,17 +25,23 @@ function Home(){
             <div className="home-intro">
                 <p className="home-intro-paragraph">Hi, I'm Samuel Chin! I'm a full-stack software developer, an amateur digital artist, a musician for fun, and a lover of technology. </p>
                 <div className="home-skills-icons">
-                    <img src={javascript} width={150}/>
-                    <img src={react} width={150}/>
-                    <img src={node} width={150}/>
-                    <img src={html} width={150}/>
-                    <img src={css} width={150}/>
-                    <img src={sass} width={150}/>
-                    <img src={aws} width={150}/>
-                    <img src={postgresql} width={150}/>
-                    <img src={redux} width={150}/>
-                    <img src={express} width={150}/>
-                    <img src={photoshop} width={150}/>
+                    <div>
+                        <img src={javascript} width={150}/>
+                        <img src={react} width={150}/>
+                        <img src={node} width={150}/>
+                        <img src={html} width={150}/>
+                    </div>
+                    <div>
+                        <img src={css} width={150}/>
+                        <img src={sass} width={150}/>
+                        <img src={aws} width={150}/>
+                        <img src={postgresql} width={150}/>
+                    </div>
+                    <div>
+                        <img src={redux} width={150}/>
+                        <img src={express} width={150}/>
+                        <img src={photoshop} width={150}/>
+                    </div>
                 </div>
             </div>
             <div className="home-projects">

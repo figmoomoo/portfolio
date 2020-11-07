@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Routes from './routes';
 import './App.css';
 import './reset.css';
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Routes/>
+      <Footer/>
     </div>
   );
 }
